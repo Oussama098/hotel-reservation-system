@@ -69,4 +69,19 @@ public class Hotel_Reservation_SystemMain {
         
     }
     
+    
+    /*
+    1/- Suppose we put all the functions inside the same service. Is this the
+    recommended approach ? Please explain.
+    
+    putting all the functions in inside the same service is not recommended approch for well design,
+    that violates the single responsability principale (SRP) , a core concept of the SOLID design principles,
+    the recommended approch is to separate the concerns into  distinct services classes.
+    UserService : for user management
+    RommService : for room management
+    BookingService : for booking management
+    */
+    
+    
+    
 }

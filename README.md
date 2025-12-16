@@ -30,12 +30,6 @@ Date Precision
 
 ✅ Complete
 
-Uses a normalizeDate helper to ensure booking calculations (nights, overlap) rely only on the Year, Month, and Day components, ignoring time stamps.
-
-Creation/Update
-
-✅ Complete
-
 setRoom and setUser both check for existence (by ID). If found, they update attributes (price/balance); otherwise, they create new entities.
 
 Reporting Order

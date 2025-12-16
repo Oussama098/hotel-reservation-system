@@ -56,7 +56,7 @@ The code is organized into standard Java packages:
 
 hotel_reservation_system/
 ├── Entity/
-│   ├── BookingRoom.java  // Stores reservation details (including price snapshot)
+│   ├── BookingRoom.java  // Stores reservation details
 │   ├── Room.java         // Stores room ID, type, and price
 │   └── User.java         // Stores user ID and balance
 ├── Service/
